@@ -1,0 +1,17 @@
+<script language="javascript">
+	function area()
+	{
+	var length=document.getElementById("l1").value;
+	var breadth=document.getElementById("b1").value;
+	var ans=length*breadth;
+	document.getElementById("result").innerHTML="Area Of Rectangle ="+ans;
+	}
+</script>
+
+<form name="f1">
+	Enter Length : <input type="text" id="l1"> <br><br>
+	Enter Breadth : <input type="text" id="b1"> <br><br>
+	<input type="button" value="ok" onclick="area();" > <br><br>
+ 	<span id="result" >Result </span>
+
+</form>

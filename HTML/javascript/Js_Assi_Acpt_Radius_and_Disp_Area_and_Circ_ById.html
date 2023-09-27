@@ -1,0 +1,22 @@
+<script language="javascript">
+	function area()
+	{
+	var radius=document.getElementById("r1").value;
+	var ar=3.14*radius*radius;
+	document.getElementById("result").innerHTML="Area Of Circle ="+ar;
+	}
+	function circ()
+	{
+	var radius=document.getElementById("r1").value;
+	var cr=2*3.14*radius;
+	document.getElementById("result").innerHTML="Circumference of Circle ="+cr;
+	}
+</script>
+
+<form name="f1">
+	Enter Radius : <input type="text" id="r1"> <br><br>  
+	<input type="button" value="Area" onclick="area();"> 
+	<input type="button" value="Circ" onclick="circ();">	<br><br>
+	<span id="result">Result </span>
+
+</form>
