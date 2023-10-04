@@ -1,0 +1,25 @@
+<form>
+    Function to check Number is Even or Odd <br><br>
+
+    Enter Number : <input type="text" id="t1"> <br><br>
+
+    <input type="button" value="Check" onclick="check();"> <br><br>
+
+    <span id="res"> Result </span>
+</form>
+
+<script language="javascript">
+
+    function check()
+    {
+        var num=document.getElementById("t1").value;
+        if(num%2==0)
+        {
+            document.getElementById("res").innerHTML="Number Is Even";
+        }
+        else
+        {
+            document.getElementById("res").innerHTML="Number is Odd";
+        }
+    }
+</script>

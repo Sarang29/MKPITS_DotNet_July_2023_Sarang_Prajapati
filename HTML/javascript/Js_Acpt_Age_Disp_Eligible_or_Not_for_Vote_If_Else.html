@@ -1,0 +1,24 @@
+<form>
+    Function to Check Eligible or Not For Vote <br><br>
+
+    Enter Age : <input type="text" id="t1"><br><br>
+
+    <input type="button" value="Check" onclick="check();"><br><br>
+
+    <span id="res"> Result </span>
+</form>
+
+<script language="javascript">
+    function check()
+    {
+        var age=document.getElementById("t1").value;
+        if(age<18)
+        {
+            document.getElementById("res").innerHTML="Not Eligible For Vote";
+        }
+        else 
+        {
+            document.getElementById("res").innerHTML="Eligible For Vote";
+        }
+    }
+</script>

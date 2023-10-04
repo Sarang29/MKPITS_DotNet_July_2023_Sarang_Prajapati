@@ -1,0 +1,37 @@
+<html>
+    <h1 align=center> Mkpits Solution
+
+    </h1>
+         <form name="f1">
+            <fieldset>
+                <legend>
+                    Form
+                </legend>  
+                <center>
+                Enter Number : <input type="text" name="t1"> <br><br>
+
+                <input type="button" value="Check" onclick="check();"> <br><br>
+
+                <span id="res"> Result</span>
+            </center>
+            </fieldset>    
+
+
+        </form>
+</html>
+
+<script language="javascript">
+
+    function check()
+    {
+        var num=parseFloat(document.f1.t1.value);
+        if(num%2==0)
+        {
+            document.getElementById("res").innerHTML="Number is Even";
+        }
+        else
+        {
+            document.getElementById("res").innerHTML="Number is Odd";
+        }
+    }
+</script>
