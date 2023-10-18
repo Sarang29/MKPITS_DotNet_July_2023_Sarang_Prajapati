@@ -15,18 +15,18 @@ namespace Disp_Sum_of_Odd_Natural_Number_WhileLoop
             int sum = 0;
 
             Console.WriteLine("Enter Number");
-            num=Convert.ToInt32(Console.ReadLine());
+            num = Convert.ToInt32(Console.ReadLine());
 
-            while (counter <= num)
+            do
             {
-                if(counter % 2 != 0 )
+                if (counter % 2 != 0)
                 {
                     Console.WriteLine("{0} is Odd Number", counter);
-                    sum = sum + counter; 
+                    sum = sum + counter;
                 }
                 counter++;
 
-            }
+            } while (counter <= num);
             Console.WriteLine("Sum = {0}", sum);
 
             Console.ReadKey();

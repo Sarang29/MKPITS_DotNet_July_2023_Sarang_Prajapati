@@ -4,31 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Disp_Sum_of_Odd_Natural_Number_WhileLoop
+namespace Print_Cube_Till_Given_Number_DoWhile
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int counter = 1;
             int num;
-            int sum = 0;
+            int counter = 1;
+            int cube;
 
             Console.WriteLine("Enter Number");
             num=Convert.ToInt32(Console.ReadLine());
+            
 
-            while (counter <= num)
+            do
             {
-                if(counter % 2 != 0 )
-                {
-                    Console.WriteLine("{0} is Odd Number", counter);
-                    sum = sum + counter; 
-                }
+                cube = counter * counter * counter;
+                Console.WriteLine("Cube = {0}", cube);
                 counter++;
-
             }
-            Console.WriteLine("Sum = {0}", sum);
-
+            while (counter <= num);
             Console.ReadKey();
         }
     }

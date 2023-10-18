@@ -4,31 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Disp_Sum_of_Odd_Natural_Number_WhileLoop
+namespace Print_Table_DoWhile
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int counter = 1;
             int num;
-            int sum = 0;
+            int counter = 1;
 
             Console.WriteLine("Enter Number");
             num=Convert.ToInt32(Console.ReadLine());
 
-            while (counter <= num)
+            do
             {
-                if(counter % 2 != 0 )
-                {
-                    Console.WriteLine("{0} is Odd Number", counter);
-                    sum = sum + counter; 
-                }
+                Console.WriteLine("{0} * {1} = {2}", num, counter, (num * counter));
                 counter++;
-
             }
-            Console.WriteLine("Sum = {0}", sum);
-
+            while (counter <= 10);
             Console.ReadKey();
         }
     }
