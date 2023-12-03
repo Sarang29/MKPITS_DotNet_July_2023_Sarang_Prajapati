@@ -1,0 +1,10 @@
+C:\Users\saran\Desktop\git\C#\Windows Forms prac\01-12-2023 WinForms Properties\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\saran\Desktop\git\C#\Windows Forms prac\01-12-2023 WinForms Properties\Calculator\bin\Debug\Calculator.exe
+C:\Users\saran\Desktop\git\C#\Windows Forms prac\01-12-2023 WinForms Properties\Calculator\bin\Debug\Calculator.pdb
+C:\Users\saran\Desktop\git\C#\Windows Forms prac\01-12-2023 WinForms Properties\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\saran\Desktop\git\C#\Windows Forms prac\01-12-2023 WinForms Properties\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\saran\Desktop\git\C#\Windows Forms prac\01-12-2023 WinForms Properties\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\saran\Desktop\git\C#\Windows Forms prac\01-12-2023 WinForms Properties\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\saran\Desktop\git\C#\Windows Forms prac\01-12-2023 WinForms Properties\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\saran\Desktop\git\C#\Windows Forms prac\01-12-2023 WinForms Properties\Calculator\obj\Debug\Calculator.exe
+C:\Users\saran\Desktop\git\C#\Windows Forms prac\01-12-2023 WinForms Properties\Calculator\obj\Debug\Calculator.pdb
