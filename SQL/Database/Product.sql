@@ -1,0 +1,5 @@
+SELECT TOP (1000) [productid]
+      ,[productname]
+      ,[price]
+      ,[quantity]
+  FROM [master].[dbo].[product]

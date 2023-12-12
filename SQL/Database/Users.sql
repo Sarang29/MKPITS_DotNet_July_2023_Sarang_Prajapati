@@ -1,0 +1,8 @@
+SELECT TOP (1000) [userid]
+      ,[username]
+      ,[password]
+      ,[emailid]
+      ,[gender]
+      ,[city]
+      ,[country]
+  FROM [master].[dbo].[users]

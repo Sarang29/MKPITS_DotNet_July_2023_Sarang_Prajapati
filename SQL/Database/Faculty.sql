@@ -1,0 +1,5 @@
+SELECT TOP (1000) [rollno]
+      ,[name]
+      ,[address]
+      ,[mobno]
+  FROM [master].[dbo].[Faculty]
