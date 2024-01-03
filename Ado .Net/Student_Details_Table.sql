@@ -1,0 +1,7 @@
+SELECT TOP (1000) [rno]
+      ,[studname]
+      ,[gender]
+      ,[hobby]
+      ,[city]
+      ,[dob]
+  FROM [Testdb].[dbo].[student]
